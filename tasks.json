@@ -1,0 +1,72 @@
+{
+    "T1": {
+        "description": "Backup database",
+        "priority": 1,
+        "scheduledTime": 1747201817,
+        "dependencies": [],
+        "completed": true
+    },
+    "T2": {
+        "description": "Run report",
+        "priority": 2,
+        "scheduledTime": 1747201937,
+        "dependencies": [
+            "T1"
+        ],
+        "completed": false
+    },
+    "Task1": {
+        "id": "Task1",
+        "description": "Backup database",
+        "priority": 1,
+        "scheduledTime": 1747201883,
+        "dependencies": [],
+        "completed": true
+    },
+    "Task2": {
+        "id": "Task2",
+        "description": "Run report",
+        "priority": 2,
+        "scheduledTime": 1747202003,
+        "dependencies": [
+            "Task1"
+        ],
+        "completed": false
+    },
+    "Task4": {
+        "id": "Task4",
+        "description": "Backup database",
+        "priority": 1,
+        "scheduledTime": 1747201982,
+        "dependencies": [],
+        "completed": true
+    },
+    "Task5": {
+        "id": "Task5",
+        "description": "Run report",
+        "priority": 2,
+        "scheduledTime": 1747202102,
+        "dependencies": [
+            "Task4"
+        ],
+        "completed": false
+    },
+    "Task6": {
+        "id": "Task6",
+        "description": "Backup database",
+        "priority": 1,
+        "scheduledTime": 1747202020,
+        "dependencies": [],
+        "completed": true
+    },
+    "Task7": {
+        "id": "Task7",
+        "description": "Run report",
+        "priority": 2,
+        "scheduledTime": 1747202140,
+        "dependencies": [
+            "Task6"
+        ],
+        "completed": false
+    }
+}
